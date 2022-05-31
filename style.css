@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(unnamed.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+
+.image{ 
+    height:100%;
+    width:50%;
+    background: url("./image.jpg");
+    background-position: left;
+    background-size: 80vh;
+    background-repeat: no-repeat;
+}
+.content{ 
+    width:1200px;
+    height:auto;
+    margin:auto;
+    color:white;
+    background-position: center;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+.content h1{
+    color: yellow;
+}
+.cn{
+    color: #fff;
+}
+
+.cn{
+    margin-left:600px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: black;
+    border: 1px solid orange;
+    border-radius: 100px;
+    width:240px;
+    height: 50px; 
+}
+.fa-circle-arrow-right{
+    color: orange;
+    font-size: 35px;
+    margin-left: 25px;
+}
+.nav{
+    height: 80vh;
+    width: 70px;
+    float: right;
+    margin-top: -550px;
+    border: 2px solid black;
+}
+.fa-lightbulb{
+    color: #fff;
+    margin-left: 30px;
+    margin-bottom: 120px;
+}
+.fa-house-chimney{
+    color: white;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.fa-user{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+.fa-briefcase{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.fa-envelope-open{
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.fa-comments{
+    margin-left: 30px;
+    margin-top: 50px;
+    color: white;
+}
+.nav :hover{
+    color: orange;
+}
